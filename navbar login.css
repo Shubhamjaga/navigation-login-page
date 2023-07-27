@@ -1,0 +1,120 @@
+body{
+	width: 99%;
+	height: 98.2vh;
+	background-size: cover;
+	background-image: url("https://images.pexels.com/photos/289586/pexels-photo-289586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+
+
+*{
+	font-family: "Poppins",sans-serif;
+	list-style: none;
+	margin: 10;
+	padding: 0;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+
+.container nav{
+	padding: 30px;
+	border-radius: 50px;
+	color: white;
+	
+}
+
+.container nav ul li{
+	position: relative;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 20px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+
+.container nav ul li::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 0%;
+	background: aqua;
+	left: 0;
+	bottom: -12px;
+	transition: .5s;
+
+}
+
+.container nav ul li:hover:after{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+
+	margin-top: 10%;
+	margin-left: 40%;
+	width: 370px;
+	height: 370px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	color: #c022f5;
+}
+.username input{
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	border-bottom: 2px solid red;
+}
+.password input{
+	margin-top: 40px;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	border-bottom: 2px solid red;
+}
+.forgot{
+	margin-top: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.btn .login-btn {
+	width: 250px;
+	height: 40px;
+	background-color: red;
+	border: none;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.btn .login-btn:hover{
+	font-size: 22px;
+	cursor: pointer;
+}
+.sign-up{
+	margin-top: 20px;
+	font-size: 18px;
+	cursor: no-drop;
+	color: black;
+}
+span{
+	margin-top: 20px;
+	font-size: 18px;
+	color: rgba(178, 30, 215, 0.699);
+	cursor: pointer;
+}
